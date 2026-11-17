@@ -24,20 +24,44 @@ WanderWays is a Python-based Travel Package Inventory Management System designed
 
 ## Project Structure
 
+```text
 WanderWays/
 │
 ├── main.py
 ├── packages.json
 ├── README.md
 └── .gitignore
+```
 
 ## How to Run
 
 1. Install Python 3.9 or newer.
-2. Download or clone this repository.
+2. Clone or download this repository.
 3. Open the project folder in VS Code.
 4. Open the terminal.
 5. Run the following command:
 
 ```bash
 python main.py
+```
+
+## Main Menu
+
+1. Add Package
+2. View Packages
+3. Search Package
+4. Update Package
+5. Delete Package
+6. Exit
+
+## Data Storage
+
+All travel package records are stored in `packages.json`.
+
+Changes are automatically saved whenever a package is added, updated, or deleted.
+
+## Internship Project
+
+**Ezitech Python Development Internship**
+
+**Task 2:** Inventory Management and Search Logic.
